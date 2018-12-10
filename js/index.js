@@ -1,6 +1,6 @@
 new Vue({
   el: "#app",
   data: {
-    title: "Hello Worlds"
+    title: "Hello Visitor"
   }
 });
