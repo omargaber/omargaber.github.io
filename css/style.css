@@ -1,50 +1,38 @@
 /* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Great+Vibes|Poppins&display=swap');
 
-.container {
-    width: 100% !important;
-    height: 100% !important;
-    margin-right: 0 !important;
-    margin-left: 0 !important;
-    max-width: 100% !important;
-    padding: 0;
-}
 
 .navbar {
-    /* Moonlit Asteroid Gradient */
-    /* background: #0F2027;
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
-
-    /* Royal Gradient */
     background: #141E30;
     background: -webkit-linear-gradient(to right, #243B55, #141E30);
     background: linear-gradient(to right, #243B55, #141E30);
-
     width: 100% !important;
-    height: 30% !important;
-    padding-top: 1em;
-    padding-bottom: 1em;
     padding-right: 10%;
     padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     font-family: 'Poppins';
     font-size: 22px;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    z-index: 10;
 }
 
 .nav-item {
     color: white !important;
-    padding: 1em;
+    padding: 0.5em;
     margin: 0.5em;
 }
 
 #navbarNavAltMarkup {
-    display: flex;
+    /* display: flex; */
     justify-content: flex-end;
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
 
 .nav-item:hover {
@@ -53,25 +41,42 @@
     transition: 0.5s;
 }
 
+
+.container-fluid {
+    /* margin-right: 0 !important;
+    margin-left: 0 !important;
+    max-width: 100% !important;*/
+    /* height: 100% !important; */
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5%;
+    height: 100%;
+    /* position: relative; */
+    /* display: inline; */
+}
+
 .about {
     width: 100%;
-    display: block;
-    height: 70%;
+    /* display: block; */
+    position: relative;
+    height: 100% !important;
     background-color: #5A8FCC;
     padding-right: 10%;
     padding-left: 10%;
-    padding-top: 3%;
+    padding-top: 4%;
     padding-bottom: 3%;
-    margin: auto;
+    margin-top: 1%;
 }
 
 .myPhoto {
     display: block;
     object-fit: cover;
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     margin: auto;
+    position: relative;
+    margin-top: 2%;
 }
 
 .name,
@@ -88,3 +93,41 @@
 .title {
     font-size: 30px !important;
 }
+
+
+/* Media Queries */
+@media screen and (max-width: 767px) {
+    .name {
+        font-size: 20px !important;
+    }
+
+    .title {
+        font-size: 18px !important;
+    }
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .name {
+        font-size: 24px !important;
+    }
+
+    .title {
+        font-size: 21px !important;
+    }
+}
+
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .name {
+        font-size: 24px !important;
+    }
+
+    .title {
+        font-size: 21px !important;
+    }
+}
+
+/* large desktops and up ----------- */
+/* @media screen and (min-width: 1200px) {} */
