@@ -1,0 +1,33 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Great+Vibes|Poppins&display=swap');
+
+
+.navbar {
+    /* Moonlit Asteroid Gradient */
+    /* background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
+
+    /* Royal Gradient */
+    background: #141E30;
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);
+    background: linear-gradient(to right, #243B55, #141E30);
+
+    width: 100% !important;
+    height: 30% !important;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-family: 'Poppins';
+    font-size: 22px;
+}
+
+.nav-item {
+    color: white !important;
+}
+
+#navbarNavAltMarkup {
+    display: flex;
+    justify-content: flex-end;
+}
