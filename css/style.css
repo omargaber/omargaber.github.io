@@ -25,9 +25,22 @@
 
 .nav-item {
     color: white !important;
+    padding: 1em;
+    margin: 0.5em;
 }
 
 #navbarNavAltMarkup {
     display: flex;
     justify-content: flex-end;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-item:hover {
+    background-color: #80ACFF;
+    color: #152034;
+    transition: 0.5s;
 }
